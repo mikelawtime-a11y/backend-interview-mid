@@ -20,8 +20,7 @@ backend-interview-mid/
 ├── TSQLScript/                        # SQL 腳本
 │   ├── TSQL_Myoffice_ACPD.sql         # 資料表建立腳本
 │   └── NewSID_自訂一組固定欄位的代碼.sql  # 主鍵產生 SP
-└── Backup/                            # 資料庫備份
-    └── Myoffice_ACPD.bak
+└── Myoffice_ACPD.bak                  # 資料庫備份
 ```
 
 ### 技術選擇
@@ -83,7 +82,7 @@ Swagger UI 每個端點均附有測試用 JSON，可直接點選 **Try it out �
 
 如需還原測試資料：
 1. SSMS → 右鍵 **Databases → Restore Database...**
-2. 選擇 **Device**，指定 `Backup/Myoffice_ACPD.bak`
+2. 選擇 **Device**，指定 `Myoffice_ACPD.bak`（位於專案根目錄）
 3. 點選 **OK**
 
 ---
